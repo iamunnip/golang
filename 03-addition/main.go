@@ -11,9 +11,9 @@ func main() {
 
 	// getting input from user
 	fmt.Println("Enter the first number")
-	fmt.Scan(&a)
+	fmt.Scanf("%d \n",&a)
 	fmt.Println("Enter the second number")
-	fmt.Scan(&b)
+	fmt.Scanf("%d \n",&b)
 
 	// adding the numbers
 	c = a + b
